@@ -15,6 +15,8 @@ import {
 
 import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 
+import logo from '../../../images/logos/logo.png';
+
 const NAV_ITEMS = ['About', 'Brands', 'Team', 'FAQ'];
 
 class Navbar extends Component {
@@ -59,7 +61,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>Absurd</Brand>
+          <Brand>LOBAL</Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />

@@ -63,8 +63,11 @@ export const MobileMenu = styled.div`
 `;
 
 export const Brand = styled.div`
-  font-family: ${props => props.theme.font.primary};
-  ${props => props.theme.font_size.large};
+  img {
+    width: 50px;
+    height: 50px;
+
+  }
 `;
 
 export const Mobile = styled.div`
